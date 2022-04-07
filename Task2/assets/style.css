@@ -1,0 +1,75 @@
+.black-container-border {
+  border: 3px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  width: 1200px;
+  height: 50px;
+  position: relative;
+}
+.yellow-square-box {
+  width: 50px;
+  height: 50px;
+  background-color: yellow;
+  position: absolute;
+  left: 5%;
+}
+.yellow-long-box {
+  width: 700px;
+  height: 50px;
+  background-color: yellow;
+  position: absolute;
+  left: 20%;
+}
+
+.yellow-rectangular-box {
+  width: 90px;
+  height: 50px;
+  background-color: yellow;
+  position: absolute;
+  left: 87%;
+}
+
+.blue-long-box-1 {
+  width: 25%;
+  height: 80%;
+  background-color: skyblue;
+  position: absolute;
+  left: 10%;
+  bottom: 0;
+}
+
+.blue-long-box-2 {
+  width: 25%;
+  height: 80%;
+  background-color: skyblue;
+  position: absolute;
+  left: 45%;
+  bottom: 0;
+}
+
+.blue-rectangular-box {
+  width: 10%;
+  height: 80%;
+  background-color: skyblue;
+  position: absolute;
+  left: 85%;
+  bottom: 0;
+}
+
+.green-square-border {
+  border: 4px solid green;
+  height: 70%;
+  width: 50%;
+  position: absolute;
+  left: 23%;
+  bottom: 0;
+}
+
+.blue-long-box-1 .red-square-box {
+  width: 25%;
+  height: 70%;
+  background-color: red;
+  position: absolute;
+  right: 0;
+  /* top: 0; */
+}

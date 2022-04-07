@@ -1,0 +1,24 @@
+body {
+  height: 400vh;
+}
+.list-header {
+  position: sticky;
+  top: 0px;
+  background-color: grey;
+  color: white;
+  font-size: 2.5rem;
+  margin-bottom: 16px;
+  padding: 10px;
+}
+.lists ul li {
+  list-style-type: none;
+  line-height: 1.6em;
+}
+.lists ul {
+  margin-bottom: 16px;
+}
+* {
+  /* margin: 0; */
+  padding: 0px 10px;
+  /* box-sizing: border-box; */
+}
